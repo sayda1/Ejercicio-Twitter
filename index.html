@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TODO APP</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="iconos/style.css">
+</head>
+<body>
+   <!----------------cabesa----->
+    <header>
+        <div class="container">
+            <div class="row">
+                <h1 class="text-center">TODO APP</h1>
+            </div>
+        </div>
+    </header>
+    <!-------------seccion-----de----textarea-Y SALIDA----->
+    <section>
+        <div class="container">
+            <div class="row">
+              <textarea class="form-control" rows="3" placeholder="Añade tu nueva tarea" id="mensaje" 
+              autofocus></textarea>
+              <button id="boton"><span class="span">+</span>Añadir tarea</button>
+            </div>
+        </div>
+    </section>
+   
+    <!----------------------------section de tareas-------->
+    <section class="section3">
+        <div class="container">
+            <div class="row">
+                <hr>
+                <div class="padre">
+                <div class="col-md-12">
+                   <ul id="lista"></ul>
+                </div>
+                   
+                </div>
+            </div>
+            <!--<input type="checkbox">--->
+        </div>
+    </section>
+</body>
+<script src="main.js"></script>
+</html>

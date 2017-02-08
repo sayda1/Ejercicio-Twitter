@@ -1,0 +1,55 @@
+/*{outline: 1px solid pink;}*/
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/flores.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*--------hedaer--la--cabesera-----------*/
+header .container{
+    font-family: fantasy;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius:7px;
+    border:3px solid #de27de;
+    color:white;
+}
+/*--------la--seccion--de--textarea------*/
+.span{
+    font-size: 25px;
+    color: white;
+    font-weight: 900;
+    padding: 0px 5px 0px 10px;
+}
+button{
+    background: #de27de;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    padding: 3px;
+    font-size: 18px;
+    font-family: fantasy;
+    margin: 10px 0px;
+}
+/*--------seccion--para--añadir--tareas---*/
+.section3 .container{
+    overflow: scroll;
+}
+hr {
+    margin: 10px 0 ;
+   border: 1px solid #de27de;
+}
+ul li {
+    list-style: none;
+    color: #de27de;
+    font-size: 20px;
+}
+ul li:hover{
+    color: #010301;
+}
+#eliminar{
+    float: right;
+    font-size: 25px;
+    color: white;
+}
